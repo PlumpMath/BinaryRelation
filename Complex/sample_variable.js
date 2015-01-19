@@ -11,4 +11,5 @@ TZ = [T,Z].mul();
 vars = wz.vars();
 console.dir(vars);
 
-console.log(TZ.vars({'t':10}));
+var func = TZ.compile(['t','v']));
+console.log(func(1,3));
